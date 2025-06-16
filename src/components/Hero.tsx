@@ -4,7 +4,7 @@ const Hero = () => {
     return (
 
 
-        <div className="flex flex-col text-center gap-3 px-4 z-20 mt-50 mb-10">
+        <div className="flex flex-col text-center gap-3 px-4 z-20 mt-20 md:mt-50 mb-10">
             <h1 className="text-4xl font-bold md:text-6xl pb-4">
                 Become a better frontend developer.
             </h1>
