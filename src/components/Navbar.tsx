@@ -3,7 +3,7 @@ import { ModeToggle } from "./mode-toggle";
 
 const Navbar = () => {
     return (
-        <nav className="flex justify-between  mx-5 py-3">
+        <nav className="flex justify-between  mx-2 py-3">
             <div className="flex gap-1 items-center font-bold">
                 <Mountain />
                 <h2 className="text-xl">CodeCraft</h2>
