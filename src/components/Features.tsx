@@ -18,7 +18,7 @@ const Features = () => {
                     {features.map(({ Icon, title, description }, idx) => (
                         <Card key={idx} className="flex p-4">
                             <CardHeader className="flex items-center gap-3 p-0">
-                                <Icon size={32} />
+                                <Icon size={32} aria-hidden="true" focusable="false" />
                                 <h3 className="text-lg font-semibold">{title}</h3>
                             </CardHeader>
                             <CardDescription className="text-start px-0 pt-2 text-sm text-gray-600 dark:text-gray-300">
