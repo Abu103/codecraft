@@ -7,6 +7,7 @@ import { ThemeProvider } from "./components/theme-provider";
 
 const App = () => {
   return (
+    
     <div className="min-h-screen">
       <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
         <Navbar />
